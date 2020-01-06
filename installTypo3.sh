@@ -210,6 +210,15 @@ return [
         'fluid_styled_content' => [
             'packagePath' => 'typo3/sysext/fluid_styled_content/',
         ],
+        'filelist' => [
+            'packagePath' => 'typo3/sysext/filelist/',
+        ],
+        'impexp' => [
+            'packagePath' => 'typo3/sysext/impexp/',
+        ],
+        'form' => [
+            'packagePath' => 'typo3/sysext/form/',
+        ],
         'install' => [
             'packagePath' => 'typo3/sysext/install/',
         ],
@@ -246,17 +255,8 @@ return [
         'felogin' => [
             'packagePath' => 'typo3/sysext/felogin/',
         ],
-        'filelist' => [
-            'packagePath' => 'typo3/sysext/filelist/',
-        ],
         'filemetadata' => [
             'packagePath' => 'typo3/sysext/filemetadata/',
-        ],
-        'form' => [
-            'packagePath' => 'typo3/sysext/form/',
-        ],
-        'impexp' => [
-            'packagePath' => 'typo3/sysext/impexp/',
         ],
         'info' => [
             'packagePath' => 'typo3/sysext/info/',
@@ -285,8 +285,11 @@ return [
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
         ],
-		'rte_ckeditor_image' => [
+        'rte_ckeditor_image' => [
             'packagePath' => 'typo3conf/ext/rte_ckeditor_image/',
+        ],
+        'bootstrapslider' => [
+            'packagePath' => 'typo3conf/ext/bootstrapslider/',
         ],
         'dce' => [
             'packagePath' => 'typo3conf/ext/dce/',
@@ -296,6 +299,12 @@ return [
         ],
         'sitepackage' => [
             'packagePath' => 'typo3conf/ext/sitepackage/',
+        ],
+        'tdtemplate' => [
+            'packagePath' => 'typo3conf/ext/tdtemplate/',
+        ],
+        'vhs' => [
+            'packagePath' => 'typo3conf/ext/vhs/',
         ],
     ],
     'version' => 5,
