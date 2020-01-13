@@ -318,7 +318,7 @@ cd ext
 mkdir sitepackage
 cd sitepackage
 git init > /dev/null
-git pull https://github.com/teamdigitalde/sitepackage-updatebar > /dev/null 2>&1
+git pull https://github.com/teamdigitalde/sitepackage > /dev/null 2>&1
 
 #copy .htaccess
 #cp typo3_src/_.htaccess typo3/.htaccess
