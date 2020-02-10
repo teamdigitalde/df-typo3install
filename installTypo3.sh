@@ -116,7 +116,7 @@ return [
             'offlineMode' => '0',
         ],
         'flux' => [
-            'autoload' => '1',
+            'autoload' => '0',
             'debugMode' => '0',
             'doktypes' => '0,1,4',
             'handleErrors' => '0',
