@@ -135,7 +135,7 @@ return [
     'FE' => [
         'debug' => true,
         'loginSecurityLevel' => 'rsa',
-        'pageNotFound_handling' => 'USER_FUNCTION:typo3conf/ext/sitepackage/Resources/Private/Php/pageNotFound.php:user_pageNotFound->pageNotFound',
+        'pageNotFound_handling' => 'REDIRECT:/',
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\BcryptPasswordHash',
             'options' => [],
